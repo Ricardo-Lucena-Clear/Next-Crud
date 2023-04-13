@@ -29,7 +29,7 @@ export default function Home() {
     setVisivel("tabela")
   }
   function novoCliente() {
-   setCliente(Cliente.vazio)
+   setCliente(Cliente.vazio())
    setVisivel("form")
   }
  
