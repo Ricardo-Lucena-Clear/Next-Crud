@@ -26,10 +26,9 @@ export default function Formulario(props: FormularioProps) {
             ) : false}
 
             <Entrada texto="Nome"
-                valor={nome}
-                valorMudou={setNome}
-                className="mb-4"
-            />
+            valor={nome}
+            valorMudou={setNome}
+            className="mb-4"         />
 
             <Entrada texto="Idade"
                 tipo="number"
